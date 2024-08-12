@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 18
       - name: Checkout to second-actions-react directory
-        run: cd ../second-action-react
+        run: pwd
       - name: Install dependencies
         run: npm ci
       - name: Run tests
