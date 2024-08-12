@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Multi-line-shell-commands
-      - run: | 
+        run: | 
             echo "First Output" 
             echo "Second Output"
   
